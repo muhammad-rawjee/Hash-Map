@@ -50,7 +50,7 @@ To implement the Hash Map we use a dynamic array to store our hash table,and
 implement open addressing with Quadratic Probing for collision resolution inside that dynamic array. Key/Value pairs must be stored in the array.
 Implementation will include the following methods:
 
-### put()
+### 1. put()
 Method updates the key/value pair in the hash map.
 If given key already exists in hash map, 
 its associated value will be replaced with the new value.
