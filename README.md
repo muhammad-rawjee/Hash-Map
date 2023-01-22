@@ -81,8 +81,8 @@ Method returns the current hash table load factor.
 ### 8. get_keys()
 Method returns a dynamic array where each index contains a tuple of a key/value pair stored in the hash map. The order of the keys in the dynamic array does not matter.
 
-### 9. __iter__()
+### 9.iter()
 Method enables the hash map to iterate across itself.
 
-### 10. __next__()
+### 10. next()
 Method will return the next item in the hash map, based on the current location of the iterator
