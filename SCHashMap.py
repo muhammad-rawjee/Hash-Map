@@ -556,3 +556,4 @@ if __name__ == "__main__":
         da = DynamicArray(case)
         mode, frequency = find_mode(da)
         print(f"Input: {da}\nMode : {mode}, Frequency: {frequency}\n")
+        
