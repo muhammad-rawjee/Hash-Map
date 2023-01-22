@@ -56,33 +56,33 @@ If given key already exists in hash map,
 its associated value will be replaced with the new value.
 If the given key is not in the hash map, a new key/value pair will be added.
 
-### 1. get()
+### 2. get()
 Method returns the value associated with the given key. If the key is not in the hash map, the method returns None.
 
-### 2. remove()
+### 3. remove()
 Method removes the given key and its associated value from the hash map. If the key
 is not in the hash map, the method does nothing (no exception needs to be raised).
 
-### 3. contains_key()
+### 4. contains_key()
 Method returns True if the given key is in the hash map, otherwise it returns False.
 
-### 4. clear()
+### 5. clear()
 Method clears the contents of the hash map. It does not change the underlying hash table capacity.
 
-### 5. empty_buckets()
+### 6. empty_buckets()
 Method returns the number of empty buckets in the hash table.
 
-### 6. resize_table()
+### 7. resize_table()
 Method changes the capacity of the internal hash table. All existing key/value pairs remain in the new hash map, and all hash table links are rehashed.
 
-### 7. table_load()
+### 8. table_load()
 Method returns the current hash table load factor.
 
-### 8. get_keys()
+### 9. get_keys()
 Method returns a dynamic array where each index contains a tuple of a key/value pair stored in the hash map. The order of the keys in the dynamic array does not matter.
 
-### 9.iter()
+### 10. iter()
 Method enables the hash map to iterate across itself.
 
-### 10. next()
+### 11. next()
 Method will return the next item in the hash map, based on the current location of the iterator
